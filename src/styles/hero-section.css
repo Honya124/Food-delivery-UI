@@ -1,0 +1,188 @@
+.home{
+    width: 100%;
+    height: 100%;
+    padding: 0px 126px;
+}
+
+.home-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-side{
+    flex: 55%;
+    height: 100%; 
+    padding-top:120px ;
+}
+
+.left-side .para-1{
+    font-size: 1.1rem;
+    color: #212245;
+    font-weight: 600;
+}
+.left-side .para-2{
+    color: #777;
+    line-height: 30px;
+    padding-top: 10px;
+}
+.text-content h5{
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.text-content span{
+    color: #df2020;
+}
+.btn-section{
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 60px;
+    
+}
+.btn-section button{
+    background: #df2020;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 6px;
+    padding-bottom: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    font-weight: 600;
+    border: none;
+    outline: none;
+    
+}
+.btn-section button:hover{
+    background: #212245;
+}
+.btn-section .btn-link{
+    text-decoration: none;
+}
+.btn-section .btn-link span {
+   text-decoration: none;
+   background: transparent;
+   border:1px solid #df2020;
+   color:#df2020;
+   font-weight: 600;
+   padding:8px 15px;
+   border-radius: 6px;
+   outline: none;
+
+}
+.text-decoreation{
+ display: flex;
+ padding: 30px 0px;
+ gap: 50px;
+
+}
+
+.text-decoreation i{
+    background: #df2020;
+    padding: 5px 5px;
+    border-radius: 50%;
+    color: #fff;
+    margin-right: 10px;
+}
+.text-decoreation p{
+    font-weight: 600;
+}
+.right-side{
+    flex: 45%;
+}
+
+
+
+@media only screen and (max-width: 894px) {
+    .home{
+        padding: 0px 4px;
+    }
+    .text-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .para-2{
+      
+        font-size: .9rem !important;
+        line-height: 30px !important;
+    }
+    
+    .para-1{
+        font-size:1.4rem !important;
+    }
+    
+    .text-content h5{
+        font-size: 1.7rem;
+        line-height: 40px;
+    }
+    .text-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .left-side{
+        max-width: 894px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;     
+    }
+    
+    .home-container{
+        flex-direction: column;
+    }
+
+
+    
+}
+
+
+@media only screen and (max-width: 680px) {
+ 
+    .para-1{
+        font-size:1.1rem !important;
+    }
+    .text-content h5{
+        font-size: 1.4rem;
+        line-height: 35px;
+    }
+    .text-decoreation{
+        display: flex;
+        padding: 8px 0px;
+        flex-direction: column;
+        gap: 4px;
+        text-align: center;
+       }
+.text-decoreation i{
+    padding: 2px 2px;
+}
+.text-decoreation p{
+  font-size: 12px;
+}
+       .btn-section {
+       display: flex;
+       flex-direction: column;
+       padding-top:10px ;
+       gap: 20px;
+        
+    }
+
+    .text-content .para-2{
+        line-height: 15px;
+        font-size: .8rem;
+    }
+    .home-container{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+
+       
+
+       
+}

@@ -1,0 +1,75 @@
+table{
+    width: 100%;
+}
+table th{
+    border-bottom: 2px solid #000;
+    padding: 8px 15px;
+    text-align: left;
+}
+table td{
+    border: 1px solid rgb(198, 187, 187);
+    padding: 8px 15px;
+    text-align: center;
+}
+
+.cart-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    padding: 50px;
+
+}
+
+.cart-container h4{
+    color: #212245;
+    font-size: 1.3rem;
+}
+
+.foodCart{
+    width: 100%
+}
+
+.image-box{
+    width: 80px;
+}
+.foodDelete i{
+    cursor: pointer;
+}
+
+.total-amount{
+color: #df2020;
+font-size: 1.5rem;
+}
+
+.proceed-continue{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    margin-top: 30px;
+}
+
+.proceed-continue button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.proceed-continue button:hover {
+    background: #df2020;
+}
+
+@media only screen and (max-width:768px) {
+   
+    .proceed-continue .btn-section{
+        display: flex;
+        flex-direction: row;
+    }
+
+    td ,th{
+        font-size: .8rem;
+    }
+}

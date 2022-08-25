@@ -1,0 +1,300 @@
+
+.serving{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 90px;
+}
+.serving h5{
+    color: #df2020;
+    padding-bottom: 10px;
+}
+.serving h2{
+    line-height: 42px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.serving span{
+    color: #df2020;
+}
+.serving p{
+    color: #777;
+    line-height: 19px;
+
+}
+
+
+.future-products{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.feature-img{
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.feature-img img{
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.category-image-card{
+    padding: 80px 0px;
+    
+}
+
+/* popular foods */
+.category-image{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #df2020;
+    border-radius: 5px;
+    color: #fff;
+    padding: 15px 10px;
+    gap: 70px;
+
+    
+}
+
+.category-image img{
+    width: 40px;
+    padding-right: 10px;
+}
+
+.category-image button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    
+}
+.poplarFoods h2{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: #212245;
+   padding-bottom: 40px;
+
+}
+
+.poplarFoods{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.activecolor{
+    background: #fff;
+    color: #df2020;
+    border-radius: 5px;
+}
+ /* fro,productcard page */
+    .product-item{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+       gap: 50px;
+       width: 100%;
+    }
+  .location-table{
+    display: flex;
+    align-items: center;
+  }
+    .left-img-location img{
+        flex: 50%;
+    }
+
+    .right-title{
+        padding: 50px 0px;
+    }
+    .right-title h5{
+        padding: 10px 0px;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .right-title span{
+        color: #df2020;
+    }
+    .right-title p{
+        color: #777;
+        line-height: 30px;
+    }
+
+    .right-choose-us{
+        background: rgb(255, 252, 252);
+        
+    }
+    .right-choose-us-2{
+        padding: 15px 0px;
+    }
+    .choose-us-title{
+        display: flex;
+        align-items: center;
+        color: #212245;
+        font-weight: 700;
+    }
+    .choose-us-title i{
+       padding-right: 10px;
+        color: #df2020;
+    }
+
+    .choose-us-desc{
+     color: #777;
+    }
+
+ .hot-pizza{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+ }
+ .hot-pizza h5{
+    padding: 40px 0px;
+    font-size:2rem;
+    color: #212245;
+ }
+
+ .network-table{
+    display: flex;
+    padding: 80px 0px;
+
+ }
+ .network-left-side{
+    flex: 50%;
+ }
+ .network-img-rightside{
+    flex: 50%;
+ }
+
+.network-left-side h5{
+    color: #df2020;
+}
+.network-left-side span{
+    color: #df2020;
+}
+.network-left-side h2{
+    padding: 20px 0px;
+    color: #212245;
+}
+.network-left-side p{
+    color: #777;
+    line-height: 30px;
+}
+
+@media only screen and (max-width: 1330px){
+    .product-item{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+       gap: 30px;
+       width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .network-table{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+}
+@media only screen and (max-width: 996px){
+   
+    .product-item{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        justify-content: center;
+       gap: 30px;
+    }
+
+}
+@media only screen and (max-width: 852px) {
+    .serving p {
+    line-height: 30px;
+    display: flex;
+    text-align: center;
+   }
+   @media only screen and (max-width: 768px) {
+        .location-table{
+            flex-direction: column;
+            text-align: center;
+        }
+        .right-choose-us-1{
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+        }
+        .right-choose-us-2{
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+        }
+        .right-choose-us-3{
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+        }
+        
+        
+
+   }
+ 
+}
+@media only screen and (max-width: 797px) {
+   
+   .feature-img img{
+    width: 70px;
+   }
+   .future-products h5{
+    font-size: 15px;
+    font-weight: 800;
+   }
+   .future-products p{
+    font-size: 12px;
+   }
+ }
+
+ @media only screen and (max-width: 686px) {
+    .poplarFoods{
+        padding-top: 90px;
+        padding-bottom: 100px;
+    }
+    
+    .category-image{
+        gap: 50px;
+    }
+    .category-image img{
+        width: 40px !important;
+    }
+    .category-image button{
+        padding: 4px 4px;
+        font-size: 0.8rem;
+        
+    }
+    .future-products h5{
+     font-size: 18px;
+     font-weight: 800;
+    }
+    .future-products p{
+        font-size: 15px;
+       }
+    .future-products {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+   
+  }
+
+

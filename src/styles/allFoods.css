@@ -1,0 +1,46 @@
+.all-foods-container{
+    padding: 60px 6px;
+}
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+
+.input-sction,
+.select-section select
+{
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+    border: 1px solid rgb(199, 195, 195);
+    padding: 7px 4px;
+    border-radius: 5px;
+}
+.product-container{
+    padding: 20px 0px;
+}
+.select-section select{
+    outline: none;
+}
+
+.input-sction input{
+border: none;
+outline: none;
+}
+
+@media only screen and (max-width:768px) {
+    .top-section{
+        padding: 0px 10px;
+    }
+}
+@media only screen and (max-width:568px) {
+    .top-section{
+       flex-direction: column;
+       align-items: center;
+    }
+
+    .select-section{
+        margin-top: 20px;
+    }
+}

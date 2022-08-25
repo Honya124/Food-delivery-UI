@@ -1,0 +1,200 @@
+.footer{
+width: 100%;
+height: 100%;
+}
+
+.container-footer{
+background: #fde4e4;
+padding: 50px 135px 30px 135px;
+
+}
+.table-grid{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    justify-content: center;
+    width: 100%;
+  
+}
+.footer-logo img{
+    width: calc(100% - 80%) ;
+
+}
+.footer-logo p{
+ font-size: .9rem;
+ line-height: 20px;}
+
+.footer-logo h5,
+.delivary-table h5,
+.contact-table h5
+{
+    color: #212245;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.input-table h5{
+    color: #212245;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+
+.input-table input::placeholder{
+    color: #212245;
+}
+
+.subs-email{
+    padding: 5px;
+    border: 1px solid  #212245;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.subs-email span i{
+    background: #df2020;
+    color: #fff;
+    padding: 6px 30px;
+    border-radius: 5px;
+ }
+
+.subs-email input{
+    background: transparent;
+    outline: none;
+   
+}
+.subs-email input :focus{
+    outline: none;
+}
+.time-work{
+    padding-bottom: 14px;
+}
+
+
+.delivary-table span{
+    color: #212245;
+    font-weight: 500;
+}
+   .contact-table p {
+     padding-bottom: 38px;
+   } 
+
+  .contact-table .my-accout{
+    display: flex;
+    flex-direction: column;
+}
+
+.my-accout span{
+    padding-bottom: 14px;
+    color: #212245;
+    font-weight: 500;
+}
+.my-accout-table .copyright{
+    color: #df2020;
+    line-height: 30px;
+    font-size: .9rem;
+}
+
+.social-account{
+    display: flex;
+    gap: 25px;
+     
+}
+.social-account  span a{
+    text-decoration: none;
+   
+}
+
+.social-account  span i{
+    padding: 5px;
+    background: #df2020;
+    color: #fff;
+    border-radius:50%; 
+}
+
+.my-accout-table{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 992px) {
+    .container-footer{
+        background: #fde4e4;
+        padding: 50px 50px 30px 50px;
+        
+        }
+        .subs-email span i {
+            padding: 5px;
+          }
+
+       
+          .subs-email input {
+            width: 120px;
+          
+          }
+          
+          .subs-email  {
+            width: 175px;
+          
+          }
+        
+}
+
+@media only screen and (max-width: 768px) {
+    .container-footer{
+        background: #fde4e4;
+        padding: 50px 4px 30px 4px;
+        
+        }
+
+        .footer-logo h5,
+        .delivary-table h5,
+        .contact-table h5,
+        .input-table h5
+        {
+            font-size: .7rem;  
+        }
+
+        .footer-logo p{
+            font-size: .7rem;
+            line-height: 15px;}
+
+            .delivary-table span,
+            .contact-table span
+            {
+               font-size: .7rem;
+               font-weight: 700;
+            }
+            .delivary-table p,
+            .contact-table p,
+            .input-table p
+            {
+               font-size: .7rem;
+               font-weight: 600;
+            }
+
+            .input-table .subs-email span{
+                padding: 3px 18px;
+                border-radius: 5px;
+             }
+
+             .input-table input::placeholder{
+                font-size: 13px;
+             }
+
+             .social-account{
+                gap: 10px;
+                 
+            }
+
+          
+
+            
+            
+}
+
+
